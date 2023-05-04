@@ -1,0 +1,173 @@
+/* #F4EEFF #DCD6F7 #A6B1E1 #424874 */
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    display: inline;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+#resume-title:hover{
+  text-decoration: underline;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    display: inline;
+}
+.top-container {
+    background-color: #F4EEFF;
+    margin: 0;
+    padding: 40px;
+    position: relative;
+}
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+}
+.images1{
+    height: 300px;
+
+}
+
+.navbar{
+    padding: 30px;
+    overflow: hidden;
+    top: 0; 
+    width: 100%;
+}
+.space{
+    height: 20px;
+    background-color: #8B1874;
+}
+.logo{
+    height: 50px;
+}
+.resume{
+  background-color: #F4EEFF;
+  margin: 0;
+  position: relative;
+  padding: 30px;
+}
+.white-block{
+  height: 300px;
+  background-color: white;
+  width: 65%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.white-block2{
+  height: 600px;
+  background-color: white;
+  width: 65%;
+  padding: 20px;
+  margin: 20px;
+}
+.white-block:hover{
+  transform: scale(1.05);
+}
+
+a:link {
+    color: green !important;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  form {
+    text-align: left;
+  }
+  label, input[type="text"], textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  label {
+    font-weight: bold;
+  }
+  input[type="text"], textarea {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 5px;
+  }
+  .inline-fields {
+    display: flex;
+  }
+  .inline-fields > div {
+    flex: 1;
+    margin-right: 10px;
+  }
+  .inline-fields > div:last-child {
+    margin-right: 0;
+  }
+  input[type="submit"] {
+    background-color: #8B1874;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .submit-message {
+    display: inline-block;
+    margin-left: 10px;
+    font-style: italic;
+    color: #8B1874;
+    height: 20px;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  #def{
+    font-size: 30px;
+  }
+  #profile2{
+    margin: 40px;
+  }
+  img:hover,button:hover {
+    opacity: 0.8; /* reduce opacity of the image */
+    transform: scale(1.1); /* increase the size of the image by 10% */
+    filter: grayscale(100%); /* make the image grayscale */
+    /* add other styles as desired */
+  }
